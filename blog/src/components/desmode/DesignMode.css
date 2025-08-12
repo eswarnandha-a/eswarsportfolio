@@ -225,7 +225,7 @@ section {
 }
 
 .design-nav-container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
   height: 100%;
@@ -252,6 +252,9 @@ section {
 .design-nav-items {
   display: flex;
   gap: 0;
+  justify-content: center;
+  flex: 1;
+  margin: 0 20px;
 }
 
 .design-nav-item {
@@ -260,7 +263,7 @@ section {
   border-radius: 0;
   padding: 12px 32px;
   font-family: 'Alta Regular', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
   color: #000000;
   cursor: pointer;
@@ -1178,7 +1181,7 @@ section {
   
   .design-nav-items {
     display: none;
-    width: 100%;
+    width: calc(100% + 4px);
     flex-direction: column;
     gap: 0;
     margin-top: 20px;

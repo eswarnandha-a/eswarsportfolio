@@ -110,8 +110,13 @@ function App() {
                       <h2>Bringing Vision to Visuals</h2>
                     </div>
                     
-                    {/* Social Media Icons (4 logos) */}
+                    {/* Social Media Icons and Resume */}
                     <div className="social-icons">
+                      {/* Resume Button */}
+                      <a href="https://drive.google.com/drive/folders/1fRZithJMrjCdi0fbbvswZq7F1YGwzb_O?usp=drive_link" target="_blank" rel="noopener noreferrer" className="resume-btn">
+                        Resume
+                      </a>
+                      
                       {/* LinkedIn */}
                       <a href="https://in.linkedin.com/in/eswar-anand13" target="_blank" rel="noopener noreferrer" className="social-icon">
                         <img src="/src/assets/social/31.png" alt="LinkedIn" />
@@ -126,13 +131,6 @@ function App() {
                       <a href="https://www.instagram.com/eswaranand_/" target="_blank" rel="noopener noreferrer" className="social-icon">
                         <img src="/src/assets/social/33.png" alt="Instagram" />
                       </a>
-                      
-
-                      
-                      {/* Resume Button */}
-                      <a href="https://drive.google.com/drive/folders/1fRZithJMrjCdi0fbbvswZq7F1YGwzb_O?usp=drive_link" target="_blank" rel="noopener noreferrer" className="resume-btn">
-                        Resume
-                      </a>
                     </div>
                   </div>
 
@@ -141,7 +139,7 @@ function App() {
                     <div className="contact-info">
                       <p>Eswar Nandha A</p>
                       <p>eswaranand1999@gmail.com</p>
-                      <p>636948951</p>
+                      <p>6369489951</p>
                     </div>
                   </div>
                 </div>
