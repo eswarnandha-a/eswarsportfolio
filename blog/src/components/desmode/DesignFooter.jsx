@@ -1,4 +1,6 @@
 import React from 'react';
+import icon38 from '../../assets/social/38.png';
+import icon39 from '../../assets/social/39.png';
 
 const DesignFooter = () => {
   const footerStyle = {
@@ -288,7 +290,7 @@ const DesignFooter = () => {
               onMouseLeave={() => setHoveredIcon(null)}
             >
               <img 
-                src="/src/assets/social/38.png" 
+                src={require('../../assets/social/38.png')} 
                 alt="LinkedIn" 
                 style={{
                   ...mobileImgStyle,

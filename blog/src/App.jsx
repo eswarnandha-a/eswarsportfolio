@@ -11,6 +11,9 @@ import eswarImage from './assets/eswar.jpg'
 import conredImage from './assets/conred.png'
 import './components/glassmorphism.css'
 import './App.css'
+import social31 from './assets/social/31.png'
+import social32 from './assets/social/32.png'
+import social33 from './assets/social/33.png'
 
 function App() {
   const [isDesignMode, setIsDesignMode] = useState(false);
@@ -118,17 +121,17 @@ function App() {
                       
                       {/* LinkedIn */}
                       <a href="https://in.linkedin.com/in/eswar-anand13" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src="/src/assets/social/31.png" alt="LinkedIn" />
+                        <img src={social31} alt="LinkedIn" />
                       </a>
                       
                       {/* GitHub */}
                       <a href="https://github.com/eswarnandha-a" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src="/src/assets/social/32.png" alt="GitHub" />
+                        <img src={social32} alt="GitHub" />
                       </a>
                       
                       {/* Instagram */}
                       <a href="https://www.instagram.com/eswaranand_/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src="/src/assets/social/33.png" alt="Instagram" />
+                        <img src={social33} alt="Instagram" />
                       </a>
                     </div>
                   </div>

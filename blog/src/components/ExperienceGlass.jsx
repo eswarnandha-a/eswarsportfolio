@@ -1,6 +1,8 @@
 import React from 'react'
 import './ExperienceGlass.css'
 import Silk from './Silk'
+import e1 from '../assets/e1.png'
+import e2 from '../assets/e2.png'
 
 export default function ExperienceGlass() {
   return (
@@ -45,7 +47,7 @@ export default function ExperienceGlass() {
           {/* Crea8tiv - E1 */}
           <div className="experience-company-card">
             <img 
-              src="/src/assets/e1.png" 
+              src={e1} 
               alt="Crea8tiv" 
               style={{ 
                 width: '180px', 
@@ -93,7 +95,7 @@ export default function ExperienceGlass() {
           {/* Lysa Solutions - E2 */}
           <div className="experience-company-card">
             <img 
-              src="/src/assets/e2.png" 
+              src={e2} 
               alt="Lysa Solutions" 
               style={{ 
                 width: '180px', 
