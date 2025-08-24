@@ -290,7 +290,7 @@ const DesignFooter = () => {
               onMouseLeave={() => setHoveredIcon(null)}
             >
               <img 
-                src={require('../../assets/social/38.png')} 
+                src={icon38} 
                 alt="LinkedIn" 
                 style={{
                   ...mobileImgStyle,
@@ -314,7 +314,7 @@ const DesignFooter = () => {
               onMouseLeave={() => setHoveredIcon(null)}
             >
               <img 
-                src="/src/assets/social/39.png" 
+                src={icon39} 
                 alt="GitHub" 
                 style={{
                   ...mobileImgStyle,

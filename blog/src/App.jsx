@@ -120,18 +120,18 @@ function App() {
                       </a>
                       
                       {/* LinkedIn */}
-                      <a href="https://in.linkedin.com/in/eswar-anand13" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src={social31} alt="LinkedIn" />
+                      <a href="" target="_blank" rel="noopener noreferrer" className="social-icon">
+                        <img src={social33} alt="LinkedIn" />
                       </a>
                       
                       {/* GitHub */}
                       <a href="https://github.com/eswarnandha-a" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src={social32} alt="GitHub" />
+                        <img src={social31} alt="GitHub" />
                       </a>
                       
                       {/* Instagram */}
                       <a href="https://www.instagram.com/eswaranand_/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <img src={social33} alt="Instagram" />
+                        <img src={social32} alt="Instagram" />
                       </a>
                     </div>
                   </div>
