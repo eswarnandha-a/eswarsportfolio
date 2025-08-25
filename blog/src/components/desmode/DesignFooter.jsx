@@ -338,10 +338,7 @@ const DesignFooter = () => {
               onMouseEnter={() => setHoveredBtn('videos')}
               onMouseLeave={() => setHoveredBtn(null)}
               onClick={() => {
-                const videosSection = document.getElementById('videos');
-                if (videosSection) {
-                  videosSection.scrollIntoView({ behavior: 'smooth' });
-                }
+                window.open('https://drive.google.com/drive/folders/1nSkH_GYRbJwZN38YHTPS8lU0fDWAZ4V6?usp=sharing', '_blank', 'noopener,noreferrer');
               }}
             >
               Videos

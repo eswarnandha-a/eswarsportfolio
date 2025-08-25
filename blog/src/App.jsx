@@ -120,7 +120,7 @@ function App() {
                       </a>
                       
                       {/* LinkedIn */}
-                      <a href="" target="_blank" rel="noopener noreferrer" className="social-icon">
+                      <a href="https://www.linkedin.com/in/eswar-anand13/" target="_blank" rel="noopener noreferrer" className="social-icon">
                         <img src={social33} alt="LinkedIn" />
                       </a>
                       

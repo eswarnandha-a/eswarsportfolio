@@ -14,23 +14,23 @@ const cardData = [
   {
     title: "SECE Space",
     description: "Local course manager for students and faculty",
-    label: "Education",
+    label: "NextJS + React",
     lottie: seceSpaceLottie,
     liveLink: "https://sece-space.vercel.app",
     githubLink: "https://github.com/eswarnandha-a/sece-space",
   },
   {
     title: "Ride Right",
-    description: "Ride sharing application for seamless transportation",
-    label: "Transportation",
+    description: "Ride sharing application for college students",
+    label: "Vite + React",
     lottie: rideRightLottie,
     liveLink: null, // Will show popup
     githubLink: "https://github.com/eswarnandha-a/Rideshare",
   },
   {
-    title: "Spendwise",
+    title: "Spendwise AI",
     description: "AI money manager for smart financial decisions",
-    label: "Finance",
+    label: "Vite + React",
     lottie: spendwiseLottie,
     liveLink: "https://hackathon-seven-dusky.vercel.app",
     githubLink: "https://github.com/eswarnandha-a/hackathon",
