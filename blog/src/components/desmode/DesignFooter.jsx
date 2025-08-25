@@ -277,7 +277,7 @@ const DesignFooter = () => {
           <div className="design-footer-social-icons" style={mobileSocialIconsStyle}>
             {/* Icon 38 */}
             <a 
-              href="https://www.behance.net/eswaranand" 
+              href="https://www.behance.net/eswaranand1" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="design-footer-icon"
@@ -346,7 +346,7 @@ const DesignFooter = () => {
             
             {/* Resume Button */}
             <a 
-              href="https://drive.google.com/drive/folders/1fRZithJMrjCdi0fbbvswZq7F1YGwzb_O?usp=drive_link" 
+              href="https://drive.google.com/drive/folders/1dY0nm7V7qG6tjTDRKPYzU9JQcogPLFph?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer" 
               style={{
